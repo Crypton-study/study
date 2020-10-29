@@ -599,6 +599,9 @@
     .container_course_top_article_left h1 {
         font-size: 4.8vw;
     }
+    .part_left {
+        padding: 0;
+    }
 
 
 
