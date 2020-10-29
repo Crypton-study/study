@@ -85,21 +85,6 @@
         margin: 20px auto 0 auto;
     }
 
-    .study2 {
-        flex-direction: column;
-        padding: 0;
-        margin-top: 0;
-        font-size: 18px;
-    }
-
-    .study2_left {
-        margin: 20px auto;
-    }
-
-    .study2_right {
-        margin: 20px auto 0 auto;
-    }
-
     .container_course_top_left h1 {
         font-size: 1.8em;
     }
