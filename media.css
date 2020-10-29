@@ -118,7 +118,16 @@
         padding-top: 0;
         margin: 20px 0 20px 0;
     }
-
+    .container_course_bottom_center_article {
+        padding: 0 40px 0 40px;
+    }
+    .container_course_bottom_article {
+        padding: 0 60px;
+        font-size: 2.2vw;
+    }
+    /*.part {*/
+    /*    font-size: 2.2vw;*/
+    /*}*/
 
 }
 
@@ -236,7 +245,6 @@
     .container_course_top_right_relative {
         top: 60px;
     }
-
 
 }
 
@@ -404,6 +412,16 @@
 
     form {
         margin-top: 20px;
+    }
+    .part {
+        flex-direction: column;
+    }
+    .container_course_bottom_article {
+        padding: 0 20px;
+        font-size: 2.8vw;
+    }
+    .container_course_top_article {
+        padding: 0;
     }
 
 
@@ -586,6 +604,17 @@
         border: 2px #0080ff;
         color: #3ca8ff;
     }
+
+    .container_course_bottom_article {
+        font-size: 4.8vw;
+    }
+    .container_course_top_article_left {
+        padding: 20px;
+    }
+    .container_course_top_article_left h1 {
+        font-size: 4.8vw;
+    }
+
 
 
 
