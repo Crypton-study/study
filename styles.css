@@ -139,8 +139,6 @@ p {
     display: flex;
     flex-direction: column;
     background-image: url("images/chel.png");
-
-
 }
 
 .mark {
@@ -171,7 +169,7 @@ p {
 }
 
 .button:hover {
-    transform: scale(1.15);
+    transform: scale(1.05);
     transition: transform 0.2s ease-in, /*замедление анимации*/
     box-shadow 0.2s linear;
     background-color: #3ca8ff;
@@ -189,10 +187,13 @@ p {
 
 .title_study {
     display: flex;
-    margin: 120px 0 20px 0;
+    margin: 120px 0 0 0;
     padding: 0 200px;
-    font-size: 28px;
+    font-size: 24px;
     text-align: justify;
+}
+.title_study h1 {
+    margin: 0;
 }
 
 .study1_left {
@@ -880,6 +881,11 @@ label {
 }
 
 /*________________________________________________________________________________________________blog*/
+.content_study_blog {
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/blog_fon.png");
+}
 
 figure.fluidratio5 {
     margin: 0;
@@ -996,4 +1002,6 @@ figure.fluidratio10 {
 .grey {
     color: #adadad;
 }
-
+ .content_study_blog h4 {
+     margin-top: 0;
+ }
