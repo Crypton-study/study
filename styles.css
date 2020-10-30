@@ -812,7 +812,7 @@ figure.fluidratio6 {
 figure.fluidratio7 {
     margin: 0;
     padding-top: 74.8%;  /* slope */
-    background-image: url("images/blog2.png");
+    background-image: url("images/blog7.png");
     background-size: cover;
     -moz-background-size: cover;  /* Firefox 3.6 */
     background-position: center;  /* Internet Explorer 7/8 */
@@ -821,7 +821,7 @@ figure.fluidratio7 {
 figure.fluidratio8 {
     margin: 0;
     padding-top: 74.8%;  /* slope */
-    background-image: url("images/blog2.png");
+    background-image: url("images/blog7.png");
     background-size: cover;
     -moz-background-size: cover;  /* Firefox 3.6 */
     background-position: center;  /* Internet Explorer 7/8 */
@@ -830,7 +830,7 @@ figure.fluidratio8 {
 figure.fluidratio9 {
     margin: 0;
     padding-top: 74.8%;  /* slope */
-    background-image: url("images/blog2.png");
+    background-image: url("images/blog7.png");
     background-size: cover;
     -moz-background-size: cover;  /* Firefox 3.6 */
     background-position: center;  /* Internet Explorer 7/8 */
@@ -839,7 +839,7 @@ figure.fluidratio9 {
 figure.fluidratio10 {
     margin: 0;
     padding-top: 74.8%;  /* slope */
-    background-image: url("images/blog2.png");
+    background-image: url("images/blog7.png");
     background-size: cover;
     -moz-background-size: cover;  /* Firefox 3.6 */
     background-position: center;  /* Internet Explorer 7/8 */
@@ -922,18 +922,20 @@ figure.fluidratio10 {
     padding: 20px 0 0 80px;
 }
 .container_course_bottom_article {
+    display: flex;
+    flex-direction: column;
     text-align: justify;
-    padding: 0 140px;
+    padding: 0 180px;
     /*font-size: 1.6vw;*/
 }
 .container_course_top_article_left {
-    flex: 3;
+    /*flex: 3;*/
     padding-left: 80px;
-    text-align: justify;
+    /*text-align: justify;*/
 }
-
 .container_course_top_article_left h1 {
     font-size: 2.6vw;
+    text-indent: 60px;
 }
 .container_course_top_article_left h3 {
     font-size: 1.8em;
@@ -986,12 +988,15 @@ figure.fluidratio1_4 {
 
 .part {
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     /*font-size: 1.6vw;*/
 }
 .part_left {
     flex: 4;
     padding-right: 20px;
+}
+.part_left p {
+    margin: 8px 0;
 }
 .part_right {
     flex: 3;
@@ -1000,4 +1005,43 @@ figure.fluidratio1_4 {
     color: red;
 }
 
-
+figure.fluidratio2_1 {
+    margin: 0;
+    padding-top: 69.2%;  /* slope */
+    background-image: url("images/article2_1.png");
+    background-size: cover;
+    -moz-background-size: cover;  /* Firefox 3.6 */
+    background-position: center;  /* Internet Explorer 7/8 */
+    border-radius: 10px;
+}
+.accent {
+    color: #5e0001;
+    font-weight: 900;
+}
+figure.fluidratio2_2 {
+    margin: 0;
+    padding-top: 69.2%;  /* slope */
+    background-image: url("images/article2_2.png");
+    background-size: cover;
+    -moz-background-size: cover;  /* Firefox 3.6 */
+    background-position: center;  /* Internet Explorer 7/8 */
+    border-radius: 10px;
+}
+figure.fluidratio2_3 {
+    margin: 0;
+    padding-top: 69.2%;  /* slope */
+    background-image: url("images/article2_3.png");
+    background-size: cover;
+    -moz-background-size: cover;  /* Firefox 3.6 */
+    background-position: center;  /* Internet Explorer 7/8 */
+    border-radius: 10px;
+}
+figure.fluidratio2_4 {
+    margin: 0;
+    padding-top: 69.2%;  /* slope */
+    background-image: url("images/article2_4.png");
+    background-size: cover;
+    -moz-background-size: cover;  /* Firefox 3.6 */
+    background-position: center;  /* Internet Explorer 7/8 */
+    border-radius: 10px;
+}
