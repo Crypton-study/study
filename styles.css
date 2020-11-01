@@ -25,6 +25,10 @@ p {
     display: flex;
     flex-direction: column;
     background-clip: border-box;
+    background: -webkit-linear-gradient(#D3FAFF, #FAFFF4, #83c2ff, #dcdeee);
+    background:    -moz-linear-gradient(#dcdeee, #FAFFF4, #83c2ff, #dcdeee);
+    background:         linear-gradient(#D3FAFF, #FAFFF4, #83c2ff, #dcdeee);
+
 }
 
 .container_order {
@@ -96,7 +100,7 @@ p {
         background:    -moz-linear-gradient(#dcdeee, #FAFFF4, #83c2ff, #dcdeee);
         background:         linear-gradient(#D3FAFF, #FAFFF4, #83c2ff, #dcdeee);
 
-    /*margin-top: 120px;*/
+    margin-top: 120px;
     /*padding-bottom: 120px;*/
 }
 .block1 {
@@ -104,7 +108,7 @@ p {
     font-size: 26px;
     flex-direction: column;
     justify-content: center;
-    margin-top: 130px;
+    /*margin-top: 130px;*/
     padding-left: 20%;
     padding-right: 20%;
     padding-bottom: 40px;
@@ -812,7 +816,7 @@ figure.fluidratio6 {
 figure.fluidratio7 {
     margin: 0;
     padding-top: 74.8%;  /* slope */
-    background-image: url("images/blog7.png");
+    background-image: url("images/blog3.png");
     background-size: cover;
     -moz-background-size: cover;  /* Firefox 3.6 */
     background-position: center;  /* Internet Explorer 7/8 */
@@ -821,7 +825,7 @@ figure.fluidratio7 {
 figure.fluidratio8 {
     margin: 0;
     padding-top: 74.8%;  /* slope */
-    background-image: url("images/blog7.png");
+    background-image: url("images/blog4.png");
     background-size: cover;
     -moz-background-size: cover;  /* Firefox 3.6 */
     background-position: center;  /* Internet Explorer 7/8 */
@@ -930,6 +934,7 @@ figure.fluidratio10 {
 }
 .container_course_top_article_left {
     /*flex: 3;*/
+    margin-top: 20px;
     padding-left: 80px;
     /*text-align: justify;*/
 }
@@ -1000,6 +1005,7 @@ figure.fluidratio1_4 {
 }
 .part_right {
     flex: 3;
+    margin: auto;
 }
 .part a:hover {
     color: red;
@@ -1040,6 +1046,60 @@ figure.fluidratio2_4 {
     margin: 0;
     padding-top: 69.2%;  /* slope */
     background-image: url("images/article2_4.png");
+    background-size: cover;
+    -moz-background-size: cover;  /* Firefox 3.6 */
+    background-position: center;  /* Internet Explorer 7/8 */
+    border-radius: 10px;
+}
+figure.fluidratio3_1 {
+    margin: 0;
+    padding-top: 69.2%;  /* slope */
+    background-image: url("images/article3_1.png");
+    background-size: cover;
+    -moz-background-size: cover;  /* Firefox 3.6 */
+    background-position: center;  /* Internet Explorer 7/8 */
+    border-radius: 10px;
+}
+figure.fluidratio3_2 {
+    margin: 0;
+    padding-top: 69.2%;  /* slope */
+    background-image: url("images/article3_2.png");
+    background-size: cover;
+    -moz-background-size: cover;  /* Firefox 3.6 */
+    background-position: center;  /* Internet Explorer 7/8 */
+    border-radius: 10px;
+}
+figure.fluidratio3_3 {
+    margin: 0;
+    padding-top: 69.2%;  /* slope */
+    background-image: url("images/article3_3.png");
+    background-size: cover;
+    -moz-background-size: cover;  /* Firefox 3.6 */
+    background-position: center;  /* Internet Explorer 7/8 */
+    border-radius: 10px;
+}
+figure.fluidratio3_4 {
+    margin: 0;
+    padding-top: 69.2%;  /* slope */
+    background-image: url("images/article3_4.png");
+    background-size: cover;
+    -moz-background-size: cover;  /* Firefox 3.6 */
+    background-position: center;  /* Internet Explorer 7/8 */
+    border-radius: 10px;
+}
+figure.fluidratio4_1 {
+    margin: 0;
+    padding-top: 69.2%;  /* slope */
+    background-image: url("images/article4_1.png");
+    background-size: cover;
+    -moz-background-size: cover;  /* Firefox 3.6 */
+    background-position: center;  /* Internet Explorer 7/8 */
+    border-radius: 10px;
+}
+figure.fluidratio4_2 {
+    margin: 0;
+    padding-top: 69.2%;  /* slope */
+    background-image: url("images/article4_2.png");
     background-size: cover;
     -moz-background-size: cover;  /* Firefox 3.6 */
     background-position: center;  /* Internet Explorer 7/8 */
